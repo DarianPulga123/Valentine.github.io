@@ -1,67 +1,95 @@
-<html lang="en"><head>
-        <meta charset="UTF-8">
-        <link rel="icon" type="image/svg+xml" href="/will-you-be-my-valentine/favicon.svg">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Will you be my valentine?</title>
-        <!-- Google Tag Manager -->
-        <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-6QQMTQWD3K&amp;cx=c&amp;gtm=4e6241h1"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-NW9LDGP5"></script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-NW9LDGP5');</script>
-        <!-- End Google Tag Manager -->
-      <script type="module" crossorigin="" src="/will-you-be-my-valentine/assets/index-DZSBSzfG.js"></script>
-      <link rel="stylesheet" crossorigin="" href="/will-you-be-my-valentine/assets/index-Clsg0WI4.css">
-    </head>
-    <body>
-        <!-- Google Tag Manager (noscript) -->
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NW9LDGP5"
-                          height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-        <!-- End Google Tag Manager (noscript) -->
-        <div id="root"><div class="-mt-16 flex h-screen flex-col items-center justify-center"><img class="h-[200px]" src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif"><h1 class="my-4 text-4xl">Will you be my Valentine?</h1><div class="flex items-center"><button class="mr-4 rounded bg-green-500 px-4 py-2 font-bold text-white hover:bg-green-700" style="font-size: 16px;">Yes</button><button class=" rounded bg-red-500 px-4 py-2 font-bold text-white hover:bg-red-700">No</button></div></div></div>
-    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentines Day</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .gradient-background {
+      background: rgb(255, 208, 229);
+      background: linear-gradient(180deg, rgba(255, 208, 229, 1) 0%, rgba(255, 232, 242, 1) 36%, rgba(255, 255, 255, 1) 100%);
+    }
 
-<img id="translator-icon" src="chrome-extension://gpahcnbjaopcgcpdjnjcmkllkcipbmjk/icons/icon-128.png" style="display: none;"><div id="translator-container" style="display: none;">
-<div class="rapid-header">
-  <img сlass="rapid-logo" src="chrome-extension://gpahcnbjaopcgcpdjnjcmkllkcipbmjk/icons/logo.svg">
-  <img сlass="rapid-icon" id="rapid-copy" src="chrome-extension://gpahcnbjaopcgcpdjnjcmkllkcipbmjk/icons/copy.svg">
-</div><div id="rapid-text-wrapper"><span></span></div>
+    .bounce2 {
+      animation: bounce2 2s ease infinite;
+    }
 
-<div class="rapid-footer">
-  <span id="rapid-first-language">ENG</span>
-  <img id="rapid-arrow-icon" src="chrome-extension://gpahcnbjaopcgcpdjnjcmkllkcipbmjk/icons/r-arrow.svg">
-  <span id="rapid-second-language">FRN</span>
-</div></div></body></html><html lang="en"><head>
-        <meta charset="UTF-8">
-        <link rel="icon" type="image/svg+xml" href="/will-you-be-my-valentine/favicon.svg">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Will you be my valentine?</title>
-        <!-- Google Tag Manager -->
-        <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-6QQMTQWD3K&amp;cx=c&amp;gtm=4e6241h1"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-NW9LDGP5"></script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-NW9LDGP5');</script>
-        <!-- End Google Tag Manager -->
-      <script type="module" crossorigin="" src="/will-you-be-my-valentine/assets/index-DZSBSzfG.js"></script>
-      <link rel="stylesheet" crossorigin="" href="/will-you-be-my-valentine/assets/index-Clsg0WI4.css">
-    </head>
-    <body>
-        <!-- Google Tag Manager (noscript) -->
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NW9LDGP5"
-                          height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-        <!-- End Google Tag Manager (noscript) -->
-        <div id="root"><div class="-mt-16 flex h-screen flex-col items-center justify-center"><img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif"><div class="my-4 text-4xl font-bold">WOOOOOO!!! I love you pookie!! ;))</div></div></div>
-    
+    @keyframes bounce2 {
+      0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-20px);
+      }
+      60% {
+        transform: translateY(-10px);
+      }
+    }
+  </style>
+</head>
+<body class="gradient-background">
+  <div class="flex items-center justify-center h-screen">
+    <div class="flex flex-col items-center p-4">
+      <img id="imageDisplay" src="./images/image1.gif" alt="Cute kitten with flowers" class="rounded-md h-[300px]" style="object-fit: cover;" />
+      <h2 id="valentineQuestion" class="text-4xl font-bold italic text-[#bd1e59] my-4">Will you be my Valentine?</h2>
+      <div class="flex gap-4 pt-[20px] items-center" id="responseButtons">
+        <button id="yesButton"
+          class="bounce2 inline-flex items-center justify-center whitespace-nowrap rounded-md text-[20px] font-medium disabled:pointer-events-none disabled:opacity-50 hover:bg-green-400 min-h-12 min-w-[75px] px-4 py-2 bg-green-500 text-white transition">
+          Yes
+        </button>
+        <button id="noButton"
+          class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-[20px] font-medium transition disabled:pointer-events-none disabled:opacity-50 hover:bg-red-700 h-12 min-w-[75px] w-auto px-4 py-2 bg-red-500 text-white">
+          No
+        </button>
+      </div>
+    </div>
+  </div>
 
-<img id="translator-icon" src="chrome-extension://gpahcnbjaopcgcpdjnjcmkllkcipbmjk/icons/icon-128.png" style="display: none;"><div id="translator-container" style="display: none;">
-<div class="rapid-header">
-  <img сlass="rapid-logo" src="chrome-extension://gpahcnbjaopcgcpdjnjcmkllkcipbmjk/icons/logo.svg">
-  <img сlass="rapid-icon" id="rapid-copy" src="chrome-extension://gpahcnbjaopcgcpdjnjcmkllkcipbmjk/icons/copy.svg">
-</div><div id="rapid-text-wrapper"><span></span></div>
-
-<div class="rapid-footer">
-  <span id="rapid-first-language">ENG</span>
-  <img id="rapid-arrow-icon" src="chrome-extension://gpahcnbjaopcgcpdjnjcmkllkcipbmjk/icons/r-arrow.svg">
-  <span id="rapid-second-language">FRN</span>
-</div></div></body></html>
+  <script type="module">
+    import confetti from 'https://cdn.skypack.dev/canvas-confetti';
+    const yesButton = document.getElementById('yesButton');
+    const noButton = document.getElementById('noButton');
+    const imageDisplay = document.getElementById('imageDisplay');
+    const valentineQuestion = document.getElementById('valentineQuestion');
+    const responseButtons = document.getElementById('responseButtons');
+  
+    let noClickCount = 0;
+    let buttonHeight = 48; // Starting height in pixels
+    let buttonWidth = 80;
+    let fontSize = 20; // Starting font size in pixels
+    const imagePaths = [
+      "./images/image1.gif",
+      "./images/image2.gif",
+      "./images/image3.gif",
+      "./images/image4.gif",
+      "./images/image5.gif",
+      "./images/image6.gif",
+      "./images/image7.gif"
+    ];
+  
+    noButton.addEventListener('click', function() {
+      if (noClickCount < 5) {
+        noClickCount++;
+        imageDisplay.src = imagePaths[noClickCount];
+        buttonHeight += 35; // Increase height by 5px on each click
+        buttonWidth += 35;
+        fontSize += 25; // Increase font size by 1px on each click
+        yesButton.style.height = `${buttonHeight}px`; // Update button height
+        yesButton.style.width = `${buttonWidth}px`;
+        yesButton.style.fontSize = `${fontSize}px`; // Update font size
+        if (noClickCount < 6) {
+          noButton.textContent = ["No", "Are you sure?", "Pookie please", "Don't do this to me :(", "You're breaking my heart", "I'm gonna cry..."][noClickCount];
+        }
+      }
+    });
+  
+    yesButton.addEventListener('click', () => {
+      imageDisplay.src = './images/image7.gif'; // Change to image7.gif
+      valentineQuestion.textContent = "Yayyy!! :3"; // Change the question text
+      responseButtons.style.display = 'none'; // Hide both buttons
+      confetti(); // Trigger confetti animation
+    });
+  </script>  
+</body>
+</html>
